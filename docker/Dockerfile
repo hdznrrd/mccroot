@@ -8,4 +8,4 @@ RUN apt-get install -y rng-tools openssl
 ADD run.sh /mmc/
 
 WORKDIR /mmc
-ENTRYPOINT /bin/bash
+CMD /bin/bash
