@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker run --rm -it mccroot
+docker run --rm -it mccroot bash
